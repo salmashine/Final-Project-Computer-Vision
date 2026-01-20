@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Buku', 'Buku Novel', 'Buku SNBT', 'Buku TKA 2', 'Buku TKA Saintek']
+
+roboflow:
+  workspace: syabita-salma
+  project: deteksi-buku-uaohd
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/syabita-salma/deteksi-buku-uaohd/dataset/3
